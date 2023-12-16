@@ -1,9 +1,8 @@
-function sum(...number) {
+function sum(...input) {
   // Start coding here !
-  let total = 0;
-  for (let i in number) {
-    total += number[i];
-  }
+  const total = input.reduce((acc, cur) => {
+    return acc + cur;
+  }, 0);
   return total;
 }
 

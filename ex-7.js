@@ -9,7 +9,7 @@ const employee2 = {
   name: "A",
   age: 50,
   scores: {
-    math: 40,
+    math: 41,
   },
 };
 

@@ -10,9 +10,9 @@ let studentProfile = {
 let additionalHobbies = ["Painting", "Yoga"];
 
 // Start coding here
-let newStudentProfile = {
+let newStudentProfiles = {
   ...studentProfile,
   hobbies: [...studentProfile.hobbies, ...additionalHobbies],
 };
 
-console.log(newStudentProfile);
+console.log(newStudentProfiles);
